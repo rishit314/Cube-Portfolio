@@ -2,10 +2,13 @@
   "name": "3d-cube-portfolio",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://rishit314.github.io/Cube-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@react-spring/three": "^10.0.1",
